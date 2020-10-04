@@ -13,7 +13,8 @@ function check_pass($i,$dbconfig,$password){
 	return $query->num_rows;
 }
 
-
+#hello ccs
+print("I am Deepankar")
 if(!isset($_SESSION['email']))
 header("location:redirect.php");
 else
